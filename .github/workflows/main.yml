@@ -15,7 +15,7 @@ jobs:
     - name: Compile firmware
       run: |
         chmod +x compile-with-docker.sh
-        ./compile-with-docker.sh
+        ./compile-with-docker.sh Fusion
         ls build/Fusion
 
     - name: Upload firmware artifact
