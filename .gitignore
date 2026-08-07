@@ -8,6 +8,7 @@ firmware
 compile_commands.json
 .vscode
 .claude
+.agents
 /docs
 k5_eeprom.raw
 
@@ -15,3 +16,4 @@ k5_eeprom.raw
 __pycache__/
 
 .DS_Store
+AGENTS.md
